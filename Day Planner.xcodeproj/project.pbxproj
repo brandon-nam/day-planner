@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B6445C2B9B61BA008D6BBF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B6445B2B9B61BA008D6BBF /* TaskRow.swift */; };
+		23B644602B9B7B08008D6BBF /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B6445F2B9B7B08008D6BBF /* TaskManager.swift */; };
 		23FDCCC32B99A4CB00C505AE /* Day_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCC22B99A4CB00C505AE /* Day_PlannerApp.swift */; };
-		23FDCCC52B99A4CB00C505AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCC42B99A4CB00C505AE /* ContentView.swift */; };
 		23FDCCC72B99A4CD00C505AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FDCCC62B99A4CD00C505AE /* Assets.xcassets */; };
 		23FDCCCB2B99A4CD00C505AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FDCCCA2B99A4CD00C505AE /* Preview Assets.xcassets */; };
 		23FDCCD52B99A4CD00C505AE /* Day_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCD42B99A4CD00C505AE /* Day_PlannerTests.swift */; };
 		23FDCCDF2B99A4CD00C505AE /* Day_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCDE2B99A4CD00C505AE /* Day_PlannerUITests.swift */; };
 		23FDCCE12B99A4CD00C505AE /* Day_PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCE02B99A4CD00C505AE /* Day_PlannerUITestsLaunchTests.swift */; };
+		23FDCCEE2B99CCFB00C505AE /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCED2B99CCFB00C505AE /* PlanView.swift */; };
+		23FDCCF02B99D4A100C505AE /* PlanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCEF2B99D4A100C505AE /* PlanList.swift */; };
+		23FDCCF52B99DE0A00C505AE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCF42B99DE0A00C505AE /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B6445B2B9B61BA008D6BBF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		23B6445F2B9B7B08008D6BBF /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		23FDCCBF2B99A4CB00C505AE /* Day Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FDCCC22B99A4CB00C505AE /* Day_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerApp.swift; sourceTree = "<group>"; };
-		23FDCCC42B99A4CB00C505AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23FDCCC62B99A4CD00C505AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23FDCCC82B99A4CD00C505AE /* Day_Planner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Day_Planner.entitlements; sourceTree = "<group>"; };
 		23FDCCCA2B99A4CD00C505AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		23FDCCDA2B99A4CD00C505AE /* Day PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FDCCDE2B99A4CD00C505AE /* Day_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerUITests.swift; sourceTree = "<group>"; };
 		23FDCCE02B99A4CD00C505AE /* Day_PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23FDCCED2B99CCFB00C505AE /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		23FDCCEF2B99D4A100C505AE /* PlanList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanList.swift; sourceTree = "<group>"; };
+		23FDCCF42B99DE0A00C505AE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				23FDCCC22B99A4CB00C505AE /* Day_PlannerApp.swift */,
-				23FDCCC42B99A4CB00C505AE /* ContentView.swift */,
+				23FDCCF42B99DE0A00C505AE /* Task.swift */,
+				23B6445F2B9B7B08008D6BBF /* TaskManager.swift */,
+				23FDCCEF2B99D4A100C505AE /* PlanList.swift */,
+				23B6445B2B9B61BA008D6BBF /* TaskRow.swift */,
+				23FDCCED2B99CCFB00C505AE /* PlanView.swift */,
 				23FDCCC62B99A4CD00C505AE /* Assets.xcassets */,
 				23FDCCC82B99A4CD00C505AE /* Day_Planner.entitlements */,
 				23FDCCC92B99A4CD00C505AE /* Preview Content */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FDCCC52B99A4CB00C505AE /* ContentView.swift in Sources */,
+				23B644602B9B7B08008D6BBF /* TaskManager.swift in Sources */,
+				23B6445C2B9B61BA008D6BBF /* TaskRow.swift in Sources */,
 				23FDCCC32B99A4CB00C505AE /* Day_PlannerApp.swift in Sources */,
+				23FDCCEE2B99CCFB00C505AE /* PlanView.swift in Sources */,
+				23FDCCF52B99DE0A00C505AE /* Task.swift in Sources */,
+				23FDCCF02B99D4A100C505AE /* PlanList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

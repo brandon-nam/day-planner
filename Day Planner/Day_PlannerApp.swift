@@ -11,7 +11,7 @@ import SwiftUI
 struct Day_PlannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanList()
         }
     }
 }
