@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235E98382BA07F57005AB987 /* CustomTimeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235E98372BA07F57005AB987 /* CustomTimeField.swift */; };
 		23B6445C2B9B61BA008D6BBF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B6445B2B9B61BA008D6BBF /* TaskRow.swift */; };
 		23B644602B9B7B08008D6BBF /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B6445F2B9B7B08008D6BBF /* TaskManager.swift */; };
 		23FDCCC32B99A4CB00C505AE /* Day_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDCCC22B99A4CB00C505AE /* Day_PlannerApp.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235E98372BA07F57005AB987 /* CustomTimeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeField.swift; sourceTree = "<group>"; };
 		23B6445B2B9B61BA008D6BBF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		23B6445F2B9B7B08008D6BBF /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		23FDCCBF2B99A4CB00C505AE /* Day Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				23B6445F2B9B7B08008D6BBF /* TaskManager.swift */,
 				23FDCCEF2B99D4A100C505AE /* PlanList.swift */,
 				23B6445B2B9B61BA008D6BBF /* TaskRow.swift */,
+				235E98372BA07F57005AB987 /* CustomTimeField.swift */,
 				23FDCCED2B99CCFB00C505AE /* PlanView.swift */,
 				23FDCCC62B99A4CD00C505AE /* Assets.xcassets */,
 				23FDCCC82B99A4CD00C505AE /* Day_Planner.entitlements */,
@@ -277,6 +280,7 @@
 				23FDCCEE2B99CCFB00C505AE /* PlanView.swift in Sources */,
 				23FDCCF52B99DE0A00C505AE /* Task.swift in Sources */,
 				23FDCCF02B99D4A100C505AE /* PlanList.swift in Sources */,
+				235E98382BA07F57005AB987 /* CustomTimeField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
